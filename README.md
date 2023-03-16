@@ -1,6 +1,6 @@
 # GoIT - Full Stack Developer
 
-## HTML+CSS Poland [Moduł 5 HTML]
+## HTML+CSS Poland [Moduł 6 HTML]
 
 #### Zadanie domowe #6
 
