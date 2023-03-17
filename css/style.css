@@ -822,6 +822,9 @@ body {
 .order-service-container .form-group .form-textarea:hover {
   border: 1px solid var(--blue-color);
   outline: none;
+
+  transition: border 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-container .input-wrapper {
@@ -847,11 +850,17 @@ body {
 .order-service-container .input-wrapper .form-input:hover {
   border: 1px solid var(--blue-color);
   outline: none;
+
+  transition: border 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus + .order-service-icon > .form-icon,
 .form-input:hover + .order-service-icon > .form-icon {
   fill: var(--blue-color);
+
+  transition: fill 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-container .accept {
@@ -878,6 +887,9 @@ body {
 
 .form-label-submit .accept:checked ~ .checked {
   display: inline-block;
+
+  transition: display 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label-submit .accept:checked ~ .not-checked {
@@ -930,9 +942,3 @@ body {
     box-shadow 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .form-group{}
-.form_group__label{}
-.form-group__icon{}
-.form-group__icon--black{}
-.form-group__icon--red{} */
